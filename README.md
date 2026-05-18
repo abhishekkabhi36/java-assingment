@@ -4,7 +4,7 @@ lab1 p1 0/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab%20p
 
 lab1 p2 o/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab%20program%201%20output/p2output.png
 
-lab1 p3 o/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab%20program%201%20output/p3op.png
+lab1 p3 o/p link : https://github.com/abhishekkabhi36/java-assingment/blob/15c9700f72fa4d1454ec9159a77889dbb00a2d87/Screenshot%202026-04-19%20114659.png
 
 lab1 p4 o/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab%20program%201%20output/p40p.png
 
@@ -20,7 +20,7 @@ lab1 p9 o/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab%20p
 
 lab1 p10 o/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab%20program%201%20output/p10op.png
 
-lab3 stringbuildingfunction o/p link :https://github.com/SACHIN7349/Java-Programs/blob/main/lab2%20output/stringbuildingfunctionsoutput.png
+lab3 stringbuildingfunction o/p link : https://github.com/abhishekkabhi36/java-assingment/blob/15c9700f72fa4d1454ec9159a77889dbb00a2d87/Screenshot%202026-04-19%20114659.png
 
 lab3 stringbuildingdemo o/p link : https://github.com/SACHIN7349/Java-Programs/blob/main/lab2%20output/stringhandlingdemooutput.png
 
