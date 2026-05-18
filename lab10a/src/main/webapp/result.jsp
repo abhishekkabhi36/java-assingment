@@ -1,0 +1,52 @@
+<%-- 
+10.a Build an Application to get Username, Email and Designation through JSP called index.jsp 
+with client sided validation and submit to the servlet called UserDataServlet and process all 
+the fields with server sided validation and display all the data through result.jsp with a link 
+to move to the client side
+--%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Page</title>
+    <style>
+        .result-container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        .message {
+            color: green;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div class="result-container">
+    <h2>Processing Result</h2>
+
+    <%
+        String msg = (String) request.getAttribute("message");
+    %>
+
+    <div class="<%= (msg != null && msg.contains("required")) ? "error" : "message" %>">
+        <%= msg %>
+    </div>
+
+    <% if(request.getAttribute("username") != null) { %>
+        <h3>Submitted Data:</h3>
+        <p>Username: <%= request.getAttribute("username") %></p>
+        <p>Email: <%= request.getAttribute("email") %></p>
+        <p>Designation: <%= request.getAttribute("designation") %></p>
+    <% } %>
+
+    <a href="index.jsp">Back to Form</a>
+</div>
+
+</body>
+</html>

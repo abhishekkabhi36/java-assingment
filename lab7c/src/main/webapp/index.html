@@ -1,0 +1,29 @@
+<!--
+7c. Build a servlet program to check whether a given number is prime or not,
+using HTML with error handling for invalid input.
+
+Steps:
+1. Create Dynamic Web Project
+2. Create Servlet
+3. Create HTML form
+4. Run on Tomcat server
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Number Checker</title>
+</head>
+<body>
+
+    <h2>Prime Number Checker</h2>
+
+    <form action="prime" method="post">
+        Enter a number:
+        <input type="number" name="number" min="1" required>
+        <br><br>
+        <input type="submit" value="Check Prime">
+    </form>
+
+</body>
+</html>
